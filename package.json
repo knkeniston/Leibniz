@@ -1,0 +1,21 @@
+{
+  "name": "leibniz",
+  "version": "1.0.0",
+  "description": "symbolic calc and alg solver in JS and Lisp",
+  "main": "leibniz.js",
+  "scripts": {
+    "test": "node node_modules/tap/bin/run.js t/* --reporter spec --timeout=30"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.encs.vancouver.wsu.edu:CS355/leibniz.git"
+  },
+  "keywords": [
+    "JS"
+  ],
+  "author": "W. Cochran and K. Siehl",
+  "license": "MIT",
+  "devDependencies": {
+    "tap": "^5.7.0"
+  }
+}

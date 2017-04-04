@@ -1,0 +1,8 @@
+(load "leibniz.lisp")   ; load sol'n
+(load "ltest.lisp")     ; load test prog
+
+(stest)                 ; test smatch function
+
+(ltest *sss*)           ; test solver (simple cases)
+(ltest *fff*)           ; test solver (harder cases)
+

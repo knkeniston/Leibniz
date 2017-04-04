@@ -1,0 +1,7 @@
+*~
+*.aux
+*.log
+*.synctex.gz
+node_modules
+.nyc_output
+*.swp
